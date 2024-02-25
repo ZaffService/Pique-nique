@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9bbb2c;
+}
+
+.field1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.field1 .form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input, select, label {
+    width: 200px;
+    height: auto;
+    text-align: end;
+    margin: 10px 0;
+}
+
+label {
+    margin-left:-400px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input, select{
+    margin-left: 30px;
+}
+
+.pic{
+    position: relative;
+}
+
+.tafa label {
+    margin-left: 100px; /* Ajustez cette valeur selon vos préférences */
+}
+
+.monform{
+    display: flex;
+}
+
+
+
+.monform input[type="checkbox"] {
+    margin-right: 0; /* Supprime l'espace entre la case à cocher et le texte */
+}
+
+.monform span {
+    margin-left: -5px; /* Utilisation d'une marge négative pour rapprocher le span de la case à cocher */
+}
+
+
+

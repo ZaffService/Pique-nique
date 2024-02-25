@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de pique nique</title>
+    <link rel="stylesheet" href="piquenique.css">
+</head>
+<body>
+        <center>
+            <fieldset  style="width: 800px;margin-top: 40px;padding:15px 20px 30px 0;border-radius: 7px;border: 2px solid #fff;; background-color:rgba(255, 255, 255, 0.282);">
+                <h1>Pique-nique de fin d'année</h1>
+            </fieldset>
+        </center>
+        <br> <br>
+        <center>
+            <fieldset class="field1" style="width: 800px;border: 2px solid #fff;border-radius: 7px;" >
+                <legend style="font-weight: bold;">Je m'identifie</legend>
+                <form class="form-wrapper">
+
+                    <div class="form-group">
+                        <label for="prénom">Mon prénom :</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="form-group">
+                    <label for="classe">Ma classe :</label>
+                        <select name="" id="">
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Mon E-mail :</label>
+                        <input type="email">
+                    </div>
+                    
+
+                    <div class="form-group">
+                        <label for="password">Mon mot de passe :</label>
+                        <input type="password">
+
+                    </div>
+
+                </form>
+                <div class="pic">
+                    <img src="note.png" style="position: absolute;left: 200px;bottom: 20px;" width="120px"height="130px">
+                </div>
+
+
+            </fieldset>
+        </center>
+        
+        <form class="monform">
+            <fieldset class="tafa" style="width: 800px;border: 2px solid #fff;border-radius: 7px;margin: 30px auto;padding: 30px 0;" >
+
+                <legend style="font-weight: bold;">J'informe</legend>
+                <label style="margin-left:20px;text-align: end;">Mes disponibilités :</label>
+                <input type="checkbox" style=" margin-left: -70px;"><span style=" margin-left: -90px;">Lundi 10 juin</span>
+                <input type="checkbox"  style=" margin-left: -5px;"><span style=" margin-left: -90px;">Mardi 11 juin</span>
+                <input type="checkbox"  style=" margin-left: -5px;"><span style="margin-left: -90px;">Mercredi 12 juin</span> <br> <br>
+
+
+                <label style="margin-left:20px;text-align: end;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;J'aporterai...</label>
+                <input type="radio" style=" margin-left: -70px;">&nbsp;&nbsp;&nbsp;&nbsp;<span style=" margin-left: -90px;">Une entrée</span>
+                <input type="radio"  style=" margin-left: -5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=" margin-left: -90px;">Un plat</span>
+                <input type="radio"  style=" margin-left: -5px;"><span style="margin-left: -90px;">Un dessert</span><br><br>
+                
+                <label style="margin-left:20px;">Je l'aisse un message(facultatif):</label> <br> <br>
+
+                <textarea name="" id="" cols="100" rows="3" style="margin-left: 10px;">Maximum 160 caractères !</textarea>
+            </fieldset>
+        </form>
+
+        <input type="submit" value="Je réinitialise le formulaire" style="margin-left: 900px; text-align: center;padding: 15px 5px;text-transform: uppercase;color: white;background-color: black;width: 300px;border-radius: 10px;margin-bottom: 3000px;">
+
+        
+</body>
+</html>

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#fff;
+}
+
+.field{
+    width: 40%;
+    margin:40px auto;
+    margin-top:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color:  #9bbb2c;
+    width: 50%;
+    height: 600px;
+    border-radius: 10px;
+    /* min-height: 90vh; */
+}
+
+.boutton{
+    margin-bottom: 30px;
+}
+
+.imgage-folder{
+    position: absolute;
+    bottom: 77%;
+    right: 64%;
+}
+
+
+.form-control{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.inputBox{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+input{
+    width: 250px;
+    height: 28px;
+}
+
+select{
+    width: 250px;
+    height: 28px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    height: 28px;
+    text-align: right; /* Alignement à droite */
+    margin-right: 5%;
+}
+
+.btn{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    width: 180px;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.644);
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: none;
+    color: transparent rgba(255, 255, 255, 0.805);
+    cursor: pointer;
+}
+
+
+
+
+
+select{
+    font-size: 18px;
+}
+
+
+.title {
+    background: transparent;
+    border-radius: 10px;
+    width: 450px;
+    padding: 8px 10px;
+}
+
+.title h2 {
+    font-size: 30px;
+    color:rgba(128, 128, 128, 0.801);
+    width: 600px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: #ffffff69; /* Couleur de fond blanche */
+    border-radius: 10px; /* Optionnel si vous souhaitez que le coin du titre soit arrondi */
+    margin-left:-70px; /* Pour supprimer la marge par défaut du h2 */
+    padding: 25px 30px; /* Pour donner de l'espace entre le texte et le bord du titre */
+}
+
+
+@media screen and (max-width: 768px) {
+    form {
+        width: 60%;
+        max-width: 90%;
+        overflow-x: hidden;
+    }
+}
+
